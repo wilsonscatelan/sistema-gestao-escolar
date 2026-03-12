@@ -1,0 +1,100 @@
+body { 
+    font-family: sans-serif; 
+    margin: 0; 
+    background-color: #f8f9fa; 
+}
+.container { 
+    padding: 30px; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+main { 
+    padding: 20px; 
+    padding-bottom: 50px;
+}
+
+header { 
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.user-info { 
+    font-size: 0.9em; 
+}
+nav { 
+    background-color: #444; 
+}
+nav a { 
+    display: inline-block; 
+    padding: 15px 20px; 
+    color: white; 
+    text-decoration: none; 
+}
+nav a:hover { 
+    background-color: #555; 
+}
+footer {
+    background-color: #333; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px; 
+}
+.navbar { 
+    background-color: #fff; 
+    padding: 15px 30px; 
+    border-bottom: 1px solid #ddd; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.user-list { width: 100%; border-collapse: collapse; }
+.user-list thead th { text-align: left; padding: 12px 8px; color: #555; font-size: 0.9em; border-bottom: 2px solid #ddd; }
+.user-list tbody td { padding: 15px 8px; border-bottom: 1px solid #eee; vertical-align: middle; }
+.user-list tbody tr:hover { background-color: #f9f9f9; }
+.user-avatar { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; margin-right: 15px; vertical-align: middle; }
+.user-name { font-weight: bold; color: #0d6efd; text-decoration: none; }
+.user-name:hover { text-decoration: underline; }
+.course-thumbnail { width: 80px; height: 45px; object-fit: cover; border-radius: 4px; margin-right: 15px; vertical-align: middle; }
+.course-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+.course-card { background-color: white; border: 1px solid #ddd; border-radius: 8px; width: 280px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+.course-card img { width: 100%; height: 150px; object-fit: cover; border-top-left-radius: 8px; border-top-right-radius: 8px; }
+.course-card-content { padding: 15px; flex-grow: 1; }
+.course-card-content h3 { margin-top: 0; font-size: 1.1em; }
+.course-card-content p { font-size: 0.9em; color: #555; }
+.course-card-footer { padding: 15px; background-color: #f8f9fa; border-top: 1px solid #ddd; }
+.btn-acesso { display: block; width: 100%; padding: 10px; background-color: #28a745; color: white; text-align: center; text-decoration: none; border-radius: 5px; box-sizing: border-box; }
+
+.course-header { text-align: center; margin-bottom: 20px; }
+.course-header h2 { font-size: 2.5em; color: #333; padding-bottom: 10px; border-bottom: 3px solid #28a745; display: inline-block; }
+.topic-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 40px; }
+.topic-box { background-color: #fff; border: 1px solid #ddd; border-left: 5px solid #28a745; border-radius: 4px; padding: 20px; width: 200px; min-height: 120px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); text-align: center; }
+.topic-box h4 { margin-top: 0; }
+.topic-box p { font-size: 0.9em; color: #666; }
+
+.btn-voltar { display: inline-block; margin-bottom: 20px; padding: 8px 15px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 4px; }
+.btn-gerenciar { display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; margin-bottom: 30px; }
+
+.form-group { margin-bottom: 15px; }
+.form-row { display: flex; gap: 15px; align-items: flex-end; }
+label { display: block; margin-bottom: 5px; }
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"], input[type="date"], select { width: 100%; padding: 8px; box-sizing: border-box; }
+button, .btn { padding: 10px 20px; color: white; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
+.btn-primary { background-color: #007bff; }
+.btn-success { background-color: #28a745; }
+.btn-secondary { background-color: #6c757d; }
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
